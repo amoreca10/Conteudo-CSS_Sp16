@@ -1,0 +1,108 @@
+body{
+    background-color: crimson;
+    font-family: monospace;
+    color:antiquewhite;
+}
+
+.al-center div,
+.al-flex-start div,
+.al-flex-end div,
+.al-stretch div,
+.center-2 div,
+.space-between-2 div {
+    background-color: bisque;
+    color: darkred;
+    border: 2px solid black;
+   padding: 30px 20px;
+    text-align: center;
+    align-content: center;   
+}
+
+/* Utilizando a propriedade aling-items */
+.al-center{
+    background-color: darkred;
+    border: 8px solid bisque;
+    padding: 10px;
+    display: flex;
+    gap:20px;
+    height: 200px;
+    align-items: center;
+}
+
+.al-flex-start{
+    background-color: darkred;
+    border:8px solid bisque;
+    padding:10px;
+    display: flex;
+    gap: 20px;
+    height: 200px;
+    align-items: flex-start;
+    
+}
+
+.al-flex-end{
+    background-color: darkred;
+    border: 8px solid bisque;
+    padding:10px;
+    display: flex;
+    gap: 20px;
+    height: 200px;
+    align-items: flex-end; 
+}
+
+.al-stretch{
+    background-color: darkred;
+    border:8px solid bisque;
+    padding:10px;
+    display:flex;
+    gap:20px;
+    height: 200px;
+    align-items: stretch;
+}
+
+/* Utilizando a prorpiedade aling-contend */
+
+.center-2  {
+    background-color: darkred;
+    border:8px solid bisque;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    height: 600px;
+    align-content: center;
+}
+
+.space-between-2 {
+    background-color: darkred;
+    border:8px solid bisque;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    height: 300px;
+    align-content: space-between;
+}
+
+/* Exemplo de centralizando absoluta com Flexbox */
+
+.container div {
+    background-color: bisque;
+    border: 2px solid black;
+    color:darkred;
+    width:250px;
+    height: 160px;
+    align-content: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+.container{
+    background-color: darkred;
+    padding: 10px;
+    border:8px solid bisque;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
